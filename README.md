@@ -1,32 +1,31 @@
 # Git Notes
 Handy terminal commands for git
 
-Git notes:
 
-Delete
+#Delete
 rm <filename> 
 
-Merge Conflicts
+#Merge Conflicts
 git mergetool
 
-Commit
+#Commit
 git status
 git add -- all
 git commit
 git commit -m “message about commit"
 
-Branches Formatting:
+#Branches Formatting:
 kdm/tabBar-profile-superfan-views
 
-Creating a new branch:
+#Creating a new branch:
 git checkout master
 git checkout -b <branch>
 git push -u origin <branch>
 
-List all branches:
+#List all branches:
 git branch -a
 
-Rebase:
+#Rebase:
 git status
 git checkout master
 git pull
@@ -37,11 +36,10 @@ git rebase —skip (optional)
 git status (Your branch and 'origin/kdm/edit-profile' have diverged, and have 7 and 8 different commits each, respectively.)
 git push -f
 
-Delete a Branch
+#Delete a Branch
 git push origin —delete kdm/branch-name
 
-Merge with Master because a Pull Request is Frozen in Github
-
+#Merge with Master because a Pull Request is Frozen in Github
 Check branch git status
 Switch to Master git checkout master
 Get up to date Master Remote git pull master
