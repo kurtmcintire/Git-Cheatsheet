@@ -22,7 +22,7 @@ git checkout master
 git checkout -b <branch>
 git push -u origin <branch>
 
-#List all branches:
+##List all branches:
 git branch -a
 
 ##Rebase:
