@@ -3,7 +3,7 @@ Handy terminal commands for git
 
 
 ##Delete
-<pre><code>$rm <filename></code></pre>
+<code>rm <filename></code>
 
 ##Merge Conflicts
 git mergetool
