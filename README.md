@@ -9,7 +9,7 @@ ex. git clone https://kurt.mcintire@code.company.com/path/path/reponame.git
 
 ##Navigate to repository
 ```
-$ cd ~/Documents/Repo-name
+$ cd ~/Documents/Some-folder/Repo-name
 ```
 
 ##Which branch am I on?
