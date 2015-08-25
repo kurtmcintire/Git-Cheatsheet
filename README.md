@@ -1,6 +1,11 @@
 #Git Cheatsheet
 Handy terminal commands for git
 
+##Clone a repo
+```
+$ git clone <remote> // git clone https://kurt.mcintire@code.company.com/path/path/reponame.git
+```
+
 ##Navigate to repository
 ```
 $ cd ~/Documents/Repo-name
