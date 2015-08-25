@@ -1,15 +1,9 @@
 #Git Cheatsheet
 Handy terminal commands for git
 
-
-##Delete
+##Which Branch Am I On?
 ```
-$ rm <filename>
-```
-
-##Merge Conflicts
-```
-$ git mergetool
+$ git status
 ```
 
 ##Commit
@@ -18,11 +12,6 @@ $ git status
 $ git add -- all
 $ git commit
 $ git commit -m "message about commit"
-```
-
-##Branches Formatting:
-```
-kdm/tabBar-profile-superfan-views
 ```
 
 ##Creating a new branch:
@@ -37,6 +26,26 @@ $ git push -u origin <branch>
 $ git branch -a
 ```
 
+##Delete a Branch
+```
+$ git push origin —delete kdm/branch-name
+```
+
+##Delete a File
+```
+$ rm <filename>
+```
+
+##Merge Conflicts
+```
+$ git mergetool
+```
+
+##Branches Formatting:
+```
+kdm/tabBar-profile-superfan-views
+```
+
 ##Rebase:
 ```
 $ git status
@@ -46,11 +55,6 @@ $ git rebase master <branch>
 $ git mergetool (optional)
 $ git rebase —continue (optional)
 $ git rebase —skip (optional)
-$ git status (Your branch and 'origin/kdm/edit-profile' have diverged, and have 7 and 8 different commits each, respectively.)
+$ git status
 $ git push -f
-```
-
-##Delete a Branch
-```
-$ git push origin —delete kdm/branch-name
 ```
