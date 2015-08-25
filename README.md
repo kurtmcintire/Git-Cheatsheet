@@ -15,7 +15,9 @@ $ git commit -m "message about commit"
 ```
 
 ##Branches Formatting:
+```
 <branch> = kdm/tabBar-profile-superfan-views
+```
 
 ##Creating a new branch:
 ```
