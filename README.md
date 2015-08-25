@@ -49,6 +49,12 @@ $ git push -u origin <branch>
 $ git branch -a
 ```
 
+##Discard all local changes
+```
+$ git checkout -- .
+```
+
+
 ##Delete a branch
 ```
 $ git push origin —delete <branch>
