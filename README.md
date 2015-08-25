@@ -3,7 +3,8 @@ Handy terminal commands for git
 
 ##Clone a repo
 ```
-$ git clone <remote> // git clone https://kurt.mcintire@code.company.com/path/path/reponame.git
+$ git clone <remote>
+ex. git clone https://kurt.mcintire@code.company.com/path/path/reponame.git
 ```
 
 ##Navigate to repository
