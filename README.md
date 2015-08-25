@@ -1,5 +1,5 @@
 #Git Cheatsheet
-Handy terminal commands for git
+Handy terminal commands for Git
 
 ##Clone a repo
 ```
