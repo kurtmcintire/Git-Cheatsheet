@@ -3,29 +3,42 @@ Handy terminal commands for git
 
 
 ##Delete
-```$ rm <filename>```
+```
+$ rm <filename>
+```
 
 ##Merge Conflicts
-```$git mergetool```
+```
+$ git mergetool
+```
 
 ##Commit
-git status
-git add -- all
-git commit
-git commit -m “message about commit"
+```
+$ git status
+$ git add -- all
+$ git commit
+$ git commit -m “message about commit"
+```
 
 ##Branches Formatting:
+```
 kdm/tabBar-profile-superfan-views
+```
 
 ##Creating a new branch:
-git checkout master
-git checkout -b <branch>
-git push -u origin <branch>
+```
+$ git checkout master
+$ git checkout -b <branch>
+$ git push -u origin <branch>
+```
 
 ##List all branches:
-git branch -a
+```
+$ git branch -a
+```
 
 ##Rebase:
+```
 git status
 git checkout master
 git pull
