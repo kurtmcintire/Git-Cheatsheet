@@ -1,9 +1,20 @@
 #Git Cheatsheet
 Handy terminal commands for git
 
-##Which Branch Am I On?
+##Navigate to repository
+```
+$ cd ~/Documents/Repo-name
+```
+
+##Which branch am I on?
 ```
 $ git status
+```
+
+##Pull / Push
+```
+$ git pull
+$ git push
 ```
 
 ##Commit
@@ -32,9 +43,9 @@ $ git push -u origin <branch>
 $ git branch -a
 ```
 
-##Delete a Branch
+##Delete a branch
 ```
-$ git push origin —delete kdm/branch-name
+$ git push origin —delete <branch>
 ```
 
 ##Delete a File
