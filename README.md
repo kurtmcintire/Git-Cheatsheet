@@ -14,6 +14,9 @@ $ git commit
 $ git commit -m "message about commit"
 ```
 
+##Branches Formatting:
+<branch> = kdm/tabBar-profile-superfan-views
+
 ##Creating a new branch:
 ```
 $ git checkout master
@@ -39,11 +42,6 @@ $ rm <filename>
 ##Merge Conflicts
 ```
 $ git mergetool
-```
-
-##Branches Formatting:
-```
-kdm/tabBar-profile-superfan-views
 ```
 
 ##Rebase:
