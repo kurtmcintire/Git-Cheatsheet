@@ -1,4 +1,4 @@
-#Git Notes
+#Git Cheatsheet
 Handy terminal commands for git
 
 
@@ -17,7 +17,7 @@ $ git mergetool
 $ git status
 $ git add -- all
 $ git commit
-$ git commit -m “message about commit"
+$ git commit -m "message about commit"
 ```
 
 ##Branches Formatting:
