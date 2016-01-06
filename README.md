@@ -23,6 +23,14 @@ $ git pull
 $ git push
 ```
 
+##Checkout
+```
+$ git checkout <branch> // specific branch
+$ git checkout <sha1> // specific commit
+```
+
+git checkout <sha1>
+
 ##Commit
 ```
 $ git status
