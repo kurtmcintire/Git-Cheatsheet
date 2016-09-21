@@ -81,7 +81,7 @@ $ git mergetool
 ##Merge without closing branch
 ```
 $ git merge <branch> --ff-only
-ex. Switch to master / dev and merge in work on a working branch like 2016.2
+ex. Switch to master / dev and merge in work from a working branch like 2016.2
 ```
 
 
