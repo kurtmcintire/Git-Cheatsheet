@@ -1,29 +1,29 @@
-#Git Cheatsheet
+# Git Cheatsheet
 Handy terminal commands for Git
 
-##Clone a repo
+## Clone a repo
 ```
 $ git clone <remote>
 ex. git clone https://kurt.mcintire@code.company.com/path/path/reponame.git
 ```
 
-##Navigate to repository
+## Navigate to repository
 ```
 $ cd ~/Documents/Some-folder/Repo-name
 ```
 
-##Which branch am I on?
+## Which branch am I on?
 ```
 $ git status
 ```
 
-##Pull / Push
+## Pull / Push
 ```
 $ git pull
 $ git push
 ```
 
-##Checkout
+## Checkout
 ```
 $ git checkout <branch> // specific branch
 $ git checkout <sha1> // specific commit
@@ -31,7 +31,7 @@ $ git checkout <sha1> // specific commit
 
 git checkout <sha1>
 
-##Commit
+## Commit
 ```
 $ git status
 $ git add -- all
@@ -39,31 +39,31 @@ $ git commit
 $ git commit -m "message about commit"
 ```
 
-##Sample branch formatting:
+## Sample branch formatting:
 ```
 <branch> = kdm/tabBar-profile-updates
 <branch> = 2016.2
 ```
 
-##Creating a new branch:
+## Creating a new branch:
 ```
 $ git checkout master
 $ git checkout -b <branch>
 $ git push -u origin <branch>
 ```
 
-##List all branches:
+## List all branches:
 ```
 $ git branch -a
 ```
 
-##Discard all local changes
+## Discard all local changes
 ```
 $ git checkout -- .
 ```
 
 
-##Delete a branch
+## Delete a branch
 ```
 $ git push origin —delete <branch>
 ```
@@ -73,12 +73,12 @@ $ git push origin —delete <branch>
 $ rm <filename>
 ```
 
-##Merge Conflicts
+## Merge Conflicts
 ```
 $ git mergetool
 ```
 
-##Merge without closing branch
+## Merge without closing branch
 ```
 $ git merge <branch> --ff-only
 ex. Switch to master / dev and merge in work from a working branch like 2016.2
@@ -86,7 +86,7 @@ ex. Switch to master / dev and merge in work from a working branch like 2016.2
 
 
 
-##Rebase:
+## Rebase:
 ```
 $ git status
 $ git checkout master
